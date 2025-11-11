@@ -235,6 +235,13 @@
         "github.com/vmware/govmomi"
       ],
       "allowedVersions": "!/v0.51.0$/"
+    },
+    {
+      "matchManagers": ["regex"],
+      "matchPackageNames": ["github.com/openshift/api"],
+      "groupName": "openshift/api replace bumps",
+      "labels": ["dependencies", "go", "replace"],
+      "rangeStrategy": "update-lockfile"
     }
   ],
   "ignoreDeps": [
@@ -244,5 +251,21 @@
   "prConcurrentLimit": 200,
   "suppressNotifications": [
     "prEditedNotification"
+  ],
+  "regexManagers": [
+    {
+      "description": "Update replace directive for openshift/api in go.mod files",
+      "fileMatch": [
+        "(^|/)go\\.mod$"
+      ],
+      "matchStrings": [
+        "(?:^|\\r\\n|\\r|\\n)replace\\s+(?<leftDep>github\\.com/openshift/api)(?:\\s+v[^\\s]+)?\\s*=>\\s+(?<depName>github\\.com/openshift/api)(?:\\s+v)?(?<currentValue>[^\\s\\r\\n]+)"
+      ],
+      "datasourceTemplate": "go",
+      "versioningTemplate": "go",
+      "packageNameTemplate": "{{depName}}",
+      "extractVersionTemplate": "{{currentValue}}"
+    }
   ]
+
 }
