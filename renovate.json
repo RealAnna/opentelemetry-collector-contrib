@@ -259,7 +259,7 @@
         "(^|/)go\\.mod$"
       ],
       "matchStrings": [
-        "(?:^|\\r\\n|\\r|\\n)replace\\s+(?<leftDep>github\\.com/openshift/api)(?:\\s+v[^\\s]+)?\\s*=>\\s+(?<depName>github\\.com/openshift/api)(?:\\s+v)?(?<currentValue>[^\\s\\r\\n]+)"
+        "(?:^|\\r\\n|\\r|\\n)replace\\s+(?<leftDep>github\\.com/openshift/api)(?:\\s+v[^\\s]+)?\\s*=>\\s+(?<depName>github\\.com/openshift/api)\\s+(?<currentValue>v[^\\s\\r\\n]+)"
       ],
       "datasourceTemplate": "go",
       "versioningTemplate": "go",
