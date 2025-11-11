@@ -237,11 +237,24 @@
       "allowedVersions": "!/v0.51.0$/"
     },
     {
-      "matchManagers": ["regex"],
-      "matchPackageNames": ["github.com/openshift/api"],
+      "matchManagers": [
+        "regex"
+      ],
+      "matchPackageNames": [
+        "github.com/openshift/api"
+      ],
       "groupName": "openshift/api replace bumps",
-      "labels": ["dependencies", "go", "replace"],
-      "rangeStrategy": "update-lockfile"
+      "labels": [
+        "dependencies",
+        "go",
+        "replace"
+      ],
+      "rangeStrategy": "update-lockfile",
+      "postUpdateOptions": [
+        "gomodTidy",
+        "gomodMassage"
+      ],
+      "stabilityDays": 3
     }
   ],
   "ignoreDeps": [
@@ -252,8 +265,9 @@
   "suppressNotifications": [
     "prEditedNotification"
   ],
-  "regexManagers": [
+  "customManagers": [
     {
+      "customType": "regex",
       "description": "Update replace directive for openshift/api in go.mod files",
       "fileMatch": [
         "(^|/)go\\.mod$"
@@ -263,9 +277,7 @@
       ],
       "datasourceTemplate": "go",
       "versioningTemplate": "go",
-      "packageNameTemplate": "{{depName}}",
-      "extractVersionTemplate": "{{currentValue}}"
+      "packageNameTemplate": "{{depName}}"
     }
   ]
-
 }
