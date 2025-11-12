@@ -264,5 +264,6 @@
       "versioningTemplate": "go",
       "packageNameTemplate": "{{depName}}"
     }
-  ]
+  ],
+  "postUpdateOptions": ["gomodTidy", "gomodMassage"]
 }
