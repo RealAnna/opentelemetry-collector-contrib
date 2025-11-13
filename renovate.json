@@ -234,7 +234,7 @@
       "allowedVersions": "!/v0.51.0$/"
     },
     {      
-      "matchManagers": ["gomod"],
+      "matchManagers": ["regex"],
       "matchPackageNames": ["github.com/openshift/api"],
       "groupName": "openshift/api replace bumps",
       "labels": ["dependencies", "go", "replace"],
@@ -265,5 +265,6 @@
       "packageNameTemplate": "{{depName}}"
     }
   ],
-  "postUpdateOptions": ["gomodTidy", "gomodMassage"]
+  "postUpdateOptions": ["gomodTidy", "gomodMassage"],
+  { "enabledManagers": ["regex"]}
 }
