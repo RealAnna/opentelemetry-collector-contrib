@@ -265,6 +265,5 @@
       "packageNameTemplate": "{{depName}}"
     }
   ],
-  "postUpdateOptions": ["gomodTidy", "gomodMassage"],
-  { "enabledManagers": ["regex"]}
+  "postUpdateOptions": ["gomodTidy", "gomodMassage"]
 }
