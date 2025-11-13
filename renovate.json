@@ -51,6 +51,14 @@
         "dependency-major-update"
       ]
     },
+    {      
+      "matchManagers": ["regex"],
+      "matchPackageNames": ["github.com/openshift/api{/,}**"],
+      "groupName": "openshift/api replace bumps",
+      "labels": ["dependencies", "go", "replace"],
+      "rangeStrategy": "update-lockfile",
+      "postUpdateOptions": ["gomodTidy", "gomodMassage"]
+    },
     {
       "matchManagers": [
         "dockerfile"
@@ -232,14 +240,6 @@
         "github.com/vmware/govmomi"
       ],
       "allowedVersions": "!/v0.51.0$/"
-    },
-    {      
-      "matchManagers": ["regex"],
-      "matchPackageNames": ["github.com/openshift/api"],
-      "groupName": "openshift/api replace bumps",
-      "labels": ["dependencies", "go", "replace"],
-      "rangeStrategy": "update-lockfile",
-      "postUpdateOptions": ["gomodTidy", "gomodMassage"]
     }
   ],
   "ignoreDeps": [
