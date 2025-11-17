@@ -99,6 +99,8 @@ github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd h1:TRLaZ9cD/w
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee h1:W5t00kpgFdJifH4BDsTlE89Zl93FEloxaWZfGcifgq8=
 github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/kafka/configkafka v0.139.0 h1:0G2PPfWSZQtDySUOqLNVUfm0BinB4JrnUYYFr6xhg9M=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/kafka/configkafka v0.139.0/go.mod h1:3YKh9cfau37ybjhvhNa5eyOLXJpv0vRoIpb6oHns3wc=
 github.com/pierrec/lz4/v4 v4.1.15/go.mod h1:gZWDp/Ze/IJXGXf23ltt2EXimqmTUXEy0GFuRQyBid4=
 github.com/pierrec/lz4/v4 v4.1.22 h1:cKFw6uJDK+/gfw5BcDL0JL5aBsAFdsIT18eRtLj7VIU=
 github.com/pierrec/lz4/v4 v4.1.22/go.mod h1:gZWDp/Ze/IJXGXf23ltt2EXimqmTUXEy0GFuRQyBid4=
@@ -119,8 +121,8 @@ github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
 github.com/twmb/franz-go v1.7.0/go.mod h1:PMze0jNfNghhih2XHbkmTFykbMF5sJqmNJB31DOOzro=
-github.com/twmb/franz-go v1.20.2 h1:CiwhyKZHW6vqSHJkh+RTxFAJkio0jBjM/JQhx/HZ72A=
-github.com/twmb/franz-go v1.20.2/go.mod h1:YCnepDd4gl6vdzG03I5Wa57RnCTIC6DVEyMpDX/J8UA=
+github.com/twmb/franz-go v1.20.4 h1:1wTvyLTOxS0oJh5ro/DVt2JHVdx7/kGNtmtFhbcr0O0=
+github.com/twmb/franz-go v1.20.4/go.mod h1:YCnepDd4gl6vdzG03I5Wa57RnCTIC6DVEyMpDX/J8UA=
 github.com/twmb/franz-go/pkg/kadm v1.17.1 h1:Bt02Y/RLgnFO2NP2HVP1kd2TFtGRiJZx+fSArjZDtpw=
 github.com/twmb/franz-go/pkg/kadm v1.17.1/go.mod h1:s4duQmrDbloVW9QTMXhs6mViTepze7JLG43xwPcAeTg=
 github.com/twmb/franz-go/pkg/kfake v0.0.0-20251021233722-4ca18825d8c0 h1:2ldj0Fktzd8IhnSZWyCnz/xulcW7zGvTLMOXTDqm7wA=
@@ -139,8 +141,8 @@ github.com/xdg-go/scram v1.1.2/go.mod h1:RT/sEzTbU5y00aCK8UOx6R7YryM0iF1N2MOmC3k
 github.com/xdg-go/stringprep v1.0.4 h1:XLI/Ng3O1Atzq0oBs3TWm+5ZVgkq2aqdlvP9JtoZ6c8=
 github.com/xdg-go/stringprep v1.0.4/go.mod h1:mPGuuIYwz7CmR2bT9j4GbQqutWS1zV24gijq1dTyGkM=
 github.com/yuin/goldmark v1.4.13/go.mod h1:6yULJ656Px+3vBD8DxQVa3kxgyrAnzto9xy5taEt/CY=
-go.opentelemetry.io/collector/component v1.45.1-0.20251106125304-a6a176660925 h1:4Y/GEFhm8g7lAub+ak178g+ukeaS1jkytiId4VcPfE0=
-go.opentelemetry.io/collector/component v1.45.1-0.20251106125304-a6a176660925/go.mod h1:xoNFnRKE8Iv6gmlqAKgjayWraRnDcYLLgrPt9VgyO2g=
+go.opentelemetry.io/collector/component v1.45.0 h1:gGFfVdbQ+1YuyUkJjWo85I7euu3H/CiupuzCHv8OgHA=
+go.opentelemetry.io/collector/component v1.45.0/go.mod h1:xoNFnRKE8Iv6gmlqAKgjayWraRnDcYLLgrPt9VgyO2g=
 go.opentelemetry.io/collector/config/configcompression v1.45.1-0.20251106125304-a6a176660925 h1:ihpV5TZMH+qskzbCAupOn2xHOIeSe9yWaYktgtFizwE=
 go.opentelemetry.io/collector/config/configcompression v1.45.1-0.20251106125304-a6a176660925/go.mod h1:ZlnKaXFYL3HVMUNWVAo/YOLYoxNZo7h8SrQp3l7GV00=
 go.opentelemetry.io/collector/config/configopaque v1.45.1-0.20251106125304-a6a176660925 h1:/lkYhBLxZsKfFIvtJz5r0O6LZBzabB3GnXA1AQUnvIM=
@@ -153,8 +155,8 @@ go.opentelemetry.io/collector/confmap/xconfmap v0.139.1-0.20251106125304-a6a1766
 go.opentelemetry.io/collector/confmap/xconfmap v0.139.1-0.20251106125304-a6a176660925/go.mod h1:d0ucaeNq2rojFRSQsCHF/gkT3cgBx5H2bVkPQMj57ck=
 go.opentelemetry.io/collector/featuregate v1.45.1-0.20251106125304-a6a176660925 h1:PYWGcouUFCW7BUU8/YB5eN3OeqBi98CjpLtZStVuJvM=
 go.opentelemetry.io/collector/featuregate v1.45.1-0.20251106125304-a6a176660925/go.mod h1:d0tiRzVYrytB6LkcYgz2ESFTv7OktRPQe0QEQcPt1L4=
-go.opentelemetry.io/collector/pdata v1.45.1-0.20251106125304-a6a176660925 h1:Kh5NGM765y2UGTfAhQHPefPhoQHWn5PJ9fnYvUdY2Rw=
-go.opentelemetry.io/collector/pdata v1.45.1-0.20251106125304-a6a176660925/go.mod h1:tefdCB6I0k7QQGp7TmzMW4ZtqCggcPloS5W03LhgB9s=
+go.opentelemetry.io/collector/pdata v1.45.0 h1:q4XaISpeX640BcwXwb2mKOVw/gb67r22HjGWl8sbWsk=
+go.opentelemetry.io/collector/pdata v1.45.0/go.mod h1:5q2f001YhwMQO8QvpFhCOa4Cq/vtwX9W4HRMsXkU/nE=
 go.opentelemetry.io/otel v1.38.0 h1:RkfdswUDRimDg0m2Az18RKOsnI8UDzppJAtj01/Ymk8=
 go.opentelemetry.io/otel v1.38.0/go.mod h1:zcmtmQ1+YmQM9wrNsTGV/q/uyusom3P8RxwExxkZhjM=
 go.opentelemetry.io/otel/metric v1.38.0 h1:Kl6lzIYGAh5M159u9NgiRkmoMKjvbsKtYRwgfrA6WpA=
