@@ -15,7 +15,7 @@ require (
 	go.opentelemetry.io/collector/confmap/xconfmap v0.140.0
 	go.opentelemetry.io/collector/extension v1.46.0
 	go.opentelemetry.io/collector/extension/extensiontest v0.140.0
-	go.uber.org/zap v1.27.0
+	go.uber.org/zap v1.27.1
 )
 
 require (

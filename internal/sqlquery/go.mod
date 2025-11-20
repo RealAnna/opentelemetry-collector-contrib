@@ -11,7 +11,7 @@ require (
 	go.opentelemetry.io/collector/scraper v0.140.0
 	go.opentelemetry.io/collector/scraper/scraperhelper v0.140.0
 	go.uber.org/multierr v1.11.0
-	go.uber.org/zap v1.27.0
+	go.uber.org/zap v1.27.1
 )
 
 require (
