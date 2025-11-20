@@ -25,7 +25,7 @@ require (
 	go.opentelemetry.io/collector/pdata v1.46.0
 	go.opentelemetry.io/collector/service v0.140.0
 	go.opentelemetry.io/collector/service/hostcapabilities v0.140.0
-	go.uber.org/zap v1.27.0
+	go.uber.org/zap v1.27.1
 )
 
 require (
