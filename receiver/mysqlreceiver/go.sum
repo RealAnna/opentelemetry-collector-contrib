@@ -6,8 +6,8 @@ github.com/AdaLogics/go-fuzz-headers v0.0.0-20240806141605-e8a1dd7889d6 h1:He8af
 github.com/AdaLogics/go-fuzz-headers v0.0.0-20240806141605-e8a1dd7889d6/go.mod h1:8o94RPi1/7XTJvwPpRSzSUedZrtlirdB3r9Z20bi2f8=
 github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 h1:UQHMgLO+TxOElx5B5HZ4hJQsoJ/PvUvKRhJHDQXO8P8=
 github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1/go.mod h1:xomTg63KZ2rFqZQzSB4Vz2SUXa1BpHTVz9L5PTmPC4E=
-github.com/DataDog/datadog-agent/pkg/obfuscate v0.73.0-rc.8 h1:YLb99qpbLRGwJV9NJ1E3wJWHjl7Bk2fANEsI33HYMzg=
-github.com/DataDog/datadog-agent/pkg/obfuscate v0.73.0-rc.8/go.mod h1:d6Jykhk4uM3rDjZln647gRnwK9Z2qYthQbshrfG77Og=
+github.com/DataDog/datadog-agent/pkg/obfuscate v0.73.0-rc.9 h1:GV2We9GAIYlzopzOXem+zILohFKw+pHTUrKNlhGdR+M=
+github.com/DataDog/datadog-agent/pkg/obfuscate v0.73.0-rc.9/go.mod h1:d6Jykhk4uM3rDjZln647gRnwK9Z2qYthQbshrfG77Og=
 github.com/DataDog/datadog-go/v5 v5.8.1 h1:+GOES5W9zpKlhwHptZVW2C0NLVf7ilr7pHkDcbNvpIc=
 github.com/DataDog/datadog-go/v5 v5.8.1/go.mod h1:K9kcYBlxkcPP8tvvjZZKs/m1edNAUFzBbdpTUKfCsuw=
 github.com/DataDog/go-sqllexer v0.1.9 h1:0R8FnSHGXRtZo70UxgCneL7Yu4PurswUAMb5N3kOIrI=
@@ -138,6 +138,16 @@ github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee h1:W5t00kpgFd
 github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
 github.com/morikuni/aec v1.0.0 h1:nP9CBfwrvYnBRgY6qfDQkygYDmYwOilePFkwzv4dU8A=
 github.com/morikuni/aec v1.0.0/go.mod h1:BbKIizmSmc5MMPqRYbxO4ZU0S0+P200+tUnFx7PXmsc=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.140.1 h1:M5Q/jel2J8/J3GpMGeOeYhbzBYUDcvyqxRYpC5JWfCw=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.140.1/go.mod h1:d+NJchV0bw7RDEapc3fzdj8XWCcd/AXlrxLH+fJkSmE=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.140.1 h1:FcBj6LEoHzw+33GccX1XPdTd025Ds8NumaPPqkN2uRc=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.140.1/go.mod h1:YpKft9elE3kVKvyXRbINGtBq4oghz1/68b3o7B7bGdM=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.140.1 h1:OtLMmjUTjePSizBMxOsDONa0e9yFw32BEK+/LDONp/M=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.140.1/go.mod h1:DttyhquY4ngzSvyXEHd05Vitqs0A2SNcUS2aHTozfHc=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.140.1 h1:5zdlILo6x679XTKPvh9DWS8tEbl77dwGNXreHvsJsj8=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.140.1/go.mod h1:4t2oYJvSFkEhcHYI7sW+p8jMloYe1DXEdGBrtAwDEYg=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.140.1 h1:iGHaaWOHhW8CiPl6QeKL0xox2W/IxgEsqOgp8Riwvk4=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.140.1/go.mod h1:dmTMbAeRerdQTEolwoGHdAuTY8K232AqPlOPLuNK5gA=
 github.com/opencontainers/go-digest v1.0.0 h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=
 github.com/opencontainers/go-digest v1.0.0/go.mod h1:0JzlMkj0TRzQZfJkVvzbP0HBR3IKzErnv2BNG4W4MAM=
 github.com/opencontainers/image-spec v1.1.1 h1:y0fUlFfIZhPF1W537XOLg0/fcx6zcHCJwooC2xJA040=
