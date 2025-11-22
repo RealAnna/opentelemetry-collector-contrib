@@ -224,6 +224,12 @@ github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f/go.mod h1:qRW
 github.com/oklog/ulid v1.3.1 h1:EGfNDEx6MqHz8B3uNV6QAib1UR2Lm97sHi3ocA6ESJ4=
 github.com/oklog/ulid/v2 v2.1.1 h1:suPZ4ARWLOJLegGFiZZ1dFAkqzhMjL3J1TzI+5wHz8s=
 github.com/oklog/ulid/v2 v2.1.1/go.mod h1:rcEKHmBBKfef9DhnvX7y1HZBYxjXb0cP5ExxNsTT1QQ=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.140.1 h1:M5Q/jel2J8/J3GpMGeOeYhbzBYUDcvyqxRYpC5JWfCw=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.140.1/go.mod h1:d+NJchV0bw7RDEapc3fzdj8XWCcd/AXlrxLH+fJkSmE=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.140.1 h1:FcBj6LEoHzw+33GccX1XPdTd025Ds8NumaPPqkN2uRc=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.140.1/go.mod h1:YpKft9elE3kVKvyXRbINGtBq4oghz1/68b3o7B7bGdM=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.140.1 h1:Xbwyp+Q5bWKSXb6lWIG2ILbYoRN7w8gt7HWghseNt9o=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.140.1/go.mod h1:dYzmFwbAvaXBs+SW5oxSgMBQZWnXMTo7Tk55LST2eno=
 github.com/opencontainers/go-digest v1.0.0 h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=
 github.com/opencontainers/go-digest v1.0.0/go.mod h1:0JzlMkj0TRzQZfJkVvzbP0HBR3IKzErnv2BNG4W4MAM=
 github.com/opencontainers/image-spec v1.1.1 h1:y0fUlFfIZhPF1W537XOLg0/fcx6zcHCJwooC2xJA040=
@@ -243,8 +249,8 @@ github.com/prometheus/client_golang v1.23.2 h1:Je96obch5RDVy3FDMndoUsjAhG5Edi49h
 github.com/prometheus/client_golang v1.23.2/go.mod h1:Tb1a6LWHB3/SPIzCoaDXI4I8UHKeFTEQ1YCr+0Gyqmg=
 github.com/prometheus/client_model v0.6.2 h1:oBsgwpGs7iVziMvrGhE53c/GrLUsZdHnqNwqPLxwZyk=
 github.com/prometheus/client_model v0.6.2/go.mod h1:y3m2F6Gdpfy6Ut/GBsUqTWZqCUvMVzSfMLjcu6wAwpE=
-github.com/prometheus/common v0.67.3 h1:shd26MlnwTw5jksTDhC7rTQIteBxy+ZZDr3t7F2xN2Q=
-github.com/prometheus/common v0.67.3/go.mod h1:gP0fq6YjjNCLssJCQp0yk4M8W6ikLURwkdd/YKtTbyI=
+github.com/prometheus/common v0.67.4 h1:yR3NqWO1/UyO1w2PhUvXlGQs/PtFmoveVO0KZ4+Lvsc=
+github.com/prometheus/common v0.67.4/go.mod h1:gP0fq6YjjNCLssJCQp0yk4M8W6ikLURwkdd/YKtTbyI=
 github.com/prometheus/otlptranslator v1.0.0 h1:s0LJW/iN9dkIH+EnhiD3BlkkP5QVIUVEoIwkU+A6qos=
 github.com/prometheus/otlptranslator v1.0.0/go.mod h1:vRYWnXvI6aWGpsdY/mOT/cbeVRBlPWtBNDb7kGR3uKM=
 github.com/prometheus/procfs v0.16.1 h1:hZ15bTNuirocR6u0JZ6BAHHmwS1p8B4P6MRqxtzMyRg=
