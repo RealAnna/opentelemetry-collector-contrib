@@ -9,8 +9,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/elastic/lunes v0.2.0 h1:WI3bsdOTuaYXVe2DS1KbqA7u7FOHN4o8qJw80ZyZoQs=
 github.com/elastic/lunes v0.2.0/go.mod h1:u3W/BdONWTrh0JjNZ21C907dDc+cUZttZrGa625nf2k=
-github.com/expr-lang/expr v1.17.6 h1:1h6i8ONk9cexhDmowO/A64VPxHScu7qfSl2k8OlINec=
-github.com/expr-lang/expr v1.17.6/go.mod h1:8/vRC7+7HBzESEqt5kKpYXxrxkr31SaO8r40VO/1IT4=
+github.com/expr-lang/expr v1.17.7 h1:Q0xY/e/2aCIp8g9s/LGvMDCC5PxYlvHgDZRQ4y16JX8=
+github.com/expr-lang/expr v1.17.7/go.mod h1:8/vRC7+7HBzESEqt5kKpYXxrxkr31SaO8r40VO/1IT4=
 github.com/foxboron/go-tpm-keyfiles v0.0.0-20250903184740-5d135037bd4d h1:EdO/NMMuCZfxhdzTZLuKAciQSnI2DV+Ppg8+vAYrnqA=
 github.com/foxboron/go-tpm-keyfiles v0.0.0-20250903184740-5d135037bd4d/go.mod h1:uAyTlAUxchYuiFjTHmuIEJ4nGSm7iOPaGcAyA81fJ80=
 github.com/foxboron/swtpm_test v0.0.0-20230726224112-46aaafdf7006 h1:50sW4r0PcvlpG4PV8tYh2RVCapszJgaOLRCS2subvV4=
@@ -74,6 +74,12 @@ github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJ
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
 github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee h1:W5t00kpgFdJifH4BDsTlE89Zl93FEloxaWZfGcifgq8=
 github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
+github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage v0.140.1 h1:LkbDFYCgHGs0AD6o+dTe1wZgvtmBFx//ECD3A76LRKg=
+github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage v0.140.1/go.mod h1:VK4VmR4OBuLDbMTbC0lZI/7O5hm9RG0FtTC+m9850lc=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.140.1 h1:M5Q/jel2J8/J3GpMGeOeYhbzBYUDcvyqxRYpC5JWfCw=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.140.1/go.mod h1:d+NJchV0bw7RDEapc3fzdj8XWCcd/AXlrxLH+fJkSmE=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.140.1 h1:FcBj6LEoHzw+33GccX1XPdTd025Ds8NumaPPqkN2uRc=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.140.1/go.mod h1:YpKft9elE3kVKvyXRbINGtBq4oghz1/68b3o7B7bGdM=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rogpeppe/go-internal v1.14.1 h1:UQB4HGPB6osV0SQTLymcB4TgvyWu6ZyliaW0tI/otEQ=
