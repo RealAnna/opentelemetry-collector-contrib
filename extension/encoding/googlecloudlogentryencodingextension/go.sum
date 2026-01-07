@@ -50,6 +50,14 @@ github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJ
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
 github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee h1:W5t00kpgFdJifH4BDsTlE89Zl93FEloxaWZfGcifgq8=
 github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
+github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding v0.140.1 h1:uwxJdJWZXcR0Rx0e3TbB9Hp+rya5kKcglWf49BgGyyo=
+github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding v0.140.1/go.mod h1:0Knf7Ka2tX5VkDcTe5gO0c5q1GaPg4DyH3n2sufIbxk=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.140.1 h1:OtLMmjUTjePSizBMxOsDONa0e9yFw32BEK+/LDONp/M=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.140.1/go.mod h1:DttyhquY4ngzSvyXEHd05Vitqs0A2SNcUS2aHTozfHc=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.140.1 h1:5zdlILo6x679XTKPvh9DWS8tEbl77dwGNXreHvsJsj8=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.140.1/go.mod h1:4t2oYJvSFkEhcHYI7sW+p8jMloYe1DXEdGBrtAwDEYg=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.140.1 h1:iGHaaWOHhW8CiPl6QeKL0xox2W/IxgEsqOgp8Riwvk4=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.140.1/go.mod h1:dmTMbAeRerdQTEolwoGHdAuTY8K232AqPlOPLuNK5gA=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRIccs7FGNTlIRMkT8wgtp5eCXdBlqhYGL6U=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
@@ -119,8 +127,8 @@ google.golang.org/genproto/googleapis/rpc v0.0.0-20251022142026-3a174f9686a8 h1:
 google.golang.org/genproto/googleapis/rpc v0.0.0-20251022142026-3a174f9686a8/go.mod h1:7i2o+ce6H/6BluujYR+kqX3GKH+dChPTQU19wjRPiGk=
 google.golang.org/grpc v1.77.0 h1:wVVY6/8cGA6vvffn+wWK5ToddbgdU3d8MNENr4evgXM=
 google.golang.org/grpc v1.77.0/go.mod h1:z0BY1iVj0q8E1uSQCjL9cppRj+gnZjzDnzV0dHhrNig=
-google.golang.org/protobuf v1.36.10 h1:AYd7cD/uASjIL6Q9LiTjz8JLcrh/88q5UObnmY3aOOE=
-google.golang.org/protobuf v1.36.10/go.mod h1:HTf+CrKn2C3g5S8VImy6tdcUvCska2kB7j23XfzDpco=
+google.golang.org/protobuf v1.36.11 h1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE=
+google.golang.org/protobuf v1.36.11/go.mod h1:HTf+CrKn2C3g5S8VImy6tdcUvCska2kB7j23XfzDpco=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c h1:Hei/4ADfdWqJk1ZMxUNpqntNwaWcugrBjAiHlqqRiVk=
 gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c/go.mod h1:JHkPIbrfpd72SG/EVd6muEfDQjcINNoR0C8j2r3qZ4Q=
