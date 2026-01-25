@@ -122,6 +122,14 @@ github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee h1:W5t00kpgFd
 github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
 github.com/morikuni/aec v1.0.0 h1:nP9CBfwrvYnBRgY6qfDQkygYDmYwOilePFkwzv4dU8A=
 github.com/morikuni/aec v1.0.0/go.mod h1:BbKIizmSmc5MMPqRYbxO4ZU0S0+P200+tUnFx7PXmsc=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.140.1 h1:FcBj6LEoHzw+33GccX1XPdTd025Ds8NumaPPqkN2uRc=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.140.1/go.mod h1:YpKft9elE3kVKvyXRbINGtBq4oghz1/68b3o7B7bGdM=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.140.1 h1:OtLMmjUTjePSizBMxOsDONa0e9yFw32BEK+/LDONp/M=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.140.1/go.mod h1:DttyhquY4ngzSvyXEHd05Vitqs0A2SNcUS2aHTozfHc=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.140.1 h1:5zdlILo6x679XTKPvh9DWS8tEbl77dwGNXreHvsJsj8=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.140.1/go.mod h1:4t2oYJvSFkEhcHYI7sW+p8jMloYe1DXEdGBrtAwDEYg=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.140.1 h1:iGHaaWOHhW8CiPl6QeKL0xox2W/IxgEsqOgp8Riwvk4=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.140.1/go.mod h1:dmTMbAeRerdQTEolwoGHdAuTY8K232AqPlOPLuNK5gA=
 github.com/opencontainers/go-digest v1.0.0 h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=
 github.com/opencontainers/go-digest v1.0.0/go.mod h1:0JzlMkj0TRzQZfJkVvzbP0HBR3IKzErnv2BNG4W4MAM=
 github.com/opencontainers/image-spec v1.1.1 h1:y0fUlFfIZhPF1W537XOLg0/fcx6zcHCJwooC2xJA040=
@@ -132,8 +140,8 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c h1:ncq/mPwQF4JjgDlrVEn3C11VoGHZN7m8qihwgMEtzYw=
 github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c/go.mod h1:OmDBASR4679mdNQnz2pUhc2G8CO2JrUAVFDRBDP/hJE=
-github.com/redis/go-redis/v9 v9.17.1 h1:7tl732FjYPRT9H9aNfyTwKg9iTETjWjGKEJ2t/5iWTs=
-github.com/redis/go-redis/v9 v9.17.1/go.mod h1:u410H11HMLoB+TP67dz8rL9s6QW2j76l0//kSOd3370=
+github.com/redis/go-redis/v9 v9.17.3 h1:fN29NdNrE17KttK5Ndf20buqfDZwGNgoUr9qjl1DQx4=
+github.com/redis/go-redis/v9 v9.17.3/go.mod h1:u410H11HMLoB+TP67dz8rL9s6QW2j76l0//kSOd3370=
 github.com/rogpeppe/go-internal v1.14.1 h1:UQB4HGPB6osV0SQTLymcB4TgvyWu6ZyliaW0tI/otEQ=
 github.com/rogpeppe/go-internal v1.14.1/go.mod h1:MaRKkUm5W0goXpeCfT7UZI6fk/L7L7so1lCWt35ZSgc=
 github.com/shirou/gopsutil/v4 v4.25.6 h1:kLysI2JsKorfaFPcYmcJqbzROzsBWEOAtw6A7dIfqXs=
@@ -187,8 +195,8 @@ go.opentelemetry.io/collector/pdata v1.46.1-0.20251120204106-2e9c82787618 h1:w4S
 go.opentelemetry.io/collector/pdata v1.46.1-0.20251120204106-2e9c82787618/go.mod h1:AqZXTFkj01IxuiHZ1/I7UcGqaljvF5xiUXNYGxRqVp8=
 go.opentelemetry.io/collector/pdata/pprofile v0.140.1-0.20251120204106-2e9c82787618 h1:EPM+f1DSlHtcTT32N2tfIwXY58N5lOChdYNEEgBk5uA=
 go.opentelemetry.io/collector/pdata/pprofile v0.140.1-0.20251120204106-2e9c82787618/go.mod h1:01EwjIBpIcmJva7IoXPmHPmACGzsGxFi9xhZhY7W4q8=
-go.opentelemetry.io/collector/pdata/testdata v0.140.1-0.20251120204106-2e9c82787618 h1:TQAaixNDABYOOGEmg4ViEXxSTvBJuzeZqGyZoPBcz7I=
-go.opentelemetry.io/collector/pdata/testdata v0.140.1-0.20251120204106-2e9c82787618/go.mod h1:4BZo10Ua0sbxrqMOPzVU4J/EJdE3js472lskyPW4re8=
+go.opentelemetry.io/collector/pdata/testdata v0.140.0 h1:jMhHRS8HbiYwXeElnuTNT+17QGUF+5A5MPgdSOjpJrw=
+go.opentelemetry.io/collector/pdata/testdata v0.140.0/go.mod h1:4BZo10Ua0sbxrqMOPzVU4J/EJdE3js472lskyPW4re8=
 go.opentelemetry.io/collector/pipeline v1.46.1-0.20251120204106-2e9c82787618 h1:shpb1oV7YQgGaPP59WC/A72B+wdki9DfdJ315O2UtnY=
 go.opentelemetry.io/collector/pipeline v1.46.1-0.20251120204106-2e9c82787618/go.mod h1:xUrAqiebzYbrgxyoXSkk6/Y3oi5Sy3im2iCA51LwUAI=
 go.opentelemetry.io/collector/receiver v1.46.1-0.20251120204106-2e9c82787618 h1:lEhxCaW1jtBwV3lTPErL2YhfzH8J9FOn2zLtU6aqJt0=
