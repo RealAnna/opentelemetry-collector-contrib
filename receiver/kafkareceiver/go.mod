@@ -18,7 +18,7 @@ require (
 	github.com/rcrowley/go-metrics v0.0.0-20250401214520-65e299d6c5c9
 	github.com/stretchr/testify v1.11.1
 	github.com/twmb/franz-go v1.20.5
-	github.com/twmb/franz-go/pkg/kadm v1.17.1
+	github.com/twmb/franz-go/pkg/kadm v1.17.2
 	github.com/twmb/franz-go/pkg/kfake v0.0.0-20251021233722-4ca18825d8c0
 	go.opentelemetry.io/collector/client v1.46.1-0.20251120204106-2e9c82787618
 	go.opentelemetry.io/collector/component v1.46.1-0.20251120204106-2e9c82787618
