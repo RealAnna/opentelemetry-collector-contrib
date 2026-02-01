@@ -5,7 +5,7 @@ go 1.24.0
 exclude github.com/knadh/koanf v1.5.0
 
 require (
-	github.com/GoogleCloudPlatform/opentelemetry-operations-go/extension/googleclientauthextension v0.54.0
+	github.com/GoogleCloudPlatform/opentelemetry-operations-go/extension/googleclientauthextension v0.55.0
 	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/collector/component v1.46.1-0.20251120204106-2e9c82787618
 	go.opentelemetry.io/collector/component/componenttest v0.140.1-0.20251120204106-2e9c82787618
