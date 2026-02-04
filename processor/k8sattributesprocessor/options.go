@@ -4,12 +4,11 @@
 package k8sattributesprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor"
 
 import (
-	"fmt"
 	"os"
 	"regexp"
 	"time"
 
-	conventions "go.opentelemetry.io/otel/semconv/v1.6.1"
+	conventions "go.opentelemetry.io/otel/semconv/v1.39.0"
 	"k8s.io/apimachinery/pkg/selection"
 
 	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
@@ -25,12 +24,9 @@ const (
 	metadataPodIP        = "k8s.pod.ip"
 	metadataPodStartTime = "k8s.pod.start_time"
 	specPodHostName      = "k8s.pod.hostname"
-	// TODO: use k8s.cluster.uid, container.image.repo_digests
-	// from semconv when available,
-	//   replace clusterUID with string(conventions.K8SClusterUIDKey)
-	//   replace containerRepoDigests with string(conventions.ContainerImageRepoDigestsKey)
-	clusterUID                = "k8s.cluster.uid"
-	containerImageRepoDigests = "container.image.repo_digests"
+
+	// TODO: Should be migrated to https://github.com/open-telemetry/semantic-conventions/blob/v1.38.0/model/container/registry.yaml#L48-L57
+	containerImageTag = "container.image.tag"
 )
 
 // option represents a configuration option that can be passes.
@@ -59,7 +55,7 @@ func withPassthrough() option {
 func enabledAttributes() (attributes []string) {
 	defaultConfig := metadata.DefaultResourceAttributesConfig()
 	if defaultConfig.K8sClusterUID.Enabled {
-		attributes = append(attributes, clusterUID)
+		attributes = append(attributes, string(conventions.K8SClusterUIDKey))
 	}
 	if defaultConfig.ContainerID.Enabled {
 		attributes = append(attributes, string(conventions.ContainerIDKey))
@@ -68,10 +64,10 @@ func enabledAttributes() (attributes []string) {
 		attributes = append(attributes, string(conventions.ContainerImageNameKey))
 	}
 	if defaultConfig.ContainerImageRepoDigests.Enabled {
-		attributes = append(attributes, containerImageRepoDigests)
+		attributes = append(attributes, string(conventions.ContainerImageRepoDigestsKey))
 	}
 	if defaultConfig.ContainerImageTag.Enabled {
-		attributes = append(attributes, string(conventions.ContainerImageTagKey))
+		attributes = append(attributes, containerImageTag)
 	}
 	if defaultConfig.K8sContainerName.Enabled {
 		attributes = append(attributes, string(conventions.K8SContainerNameKey))
@@ -203,11 +199,11 @@ func withExtractMetadata(fields ...string) option {
 				p.rules.ContainerID = true
 			case string(conventions.ContainerImageNameKey):
 				p.rules.ContainerImageName = true
-			case containerImageRepoDigests:
+			case string(conventions.ContainerImageRepoDigestsKey):
 				p.rules.ContainerImageRepoDigests = true
-			case string(conventions.ContainerImageTagKey):
+			case containerImageTag:
 				p.rules.ContainerImageTag = true
-			case clusterUID:
+			case string(conventions.K8SClusterUIDKey):
 				p.rules.ClusterUID = true
 			case string(conventions.ServiceNamespaceKey):
 				p.rules.ServiceNamespace = true
@@ -242,7 +238,7 @@ func withDeploymentNameFromReplicaSet(enabled bool) option {
 // withExtractLabels allows specifying options to control extraction of pod labels.
 func withExtractLabels(labels ...FieldExtractConfig) option {
 	return func(p *kubernetesprocessor) error {
-		labels, err := extractFieldRules("labels", labels...)
+		labels, err := extractFieldRules(labels...)
 		if err != nil {
 			return err
 		}
@@ -254,7 +250,7 @@ func withExtractLabels(labels ...FieldExtractConfig) option {
 // withExtractAnnotations allows specifying options to control extraction of pod annotations tags.
 func withExtractAnnotations(annotations ...FieldExtractConfig) option {
 	return func(p *kubernetesprocessor) error {
-		annotations, err := extractFieldRules("annotations", annotations...)
+		annotations, err := extractFieldRules(annotations...)
 		if err != nil {
 			return err
 		}
@@ -263,18 +259,13 @@ func withExtractAnnotations(annotations ...FieldExtractConfig) option {
 	}
 }
 
-func extractFieldRules(fieldType string, fields ...FieldExtractConfig) ([]kube.FieldExtractionRule, error) {
+func extractFieldRules(fields ...FieldExtractConfig) ([]kube.FieldExtractionRule, error) {
 	var rules []kube.FieldExtractionRule
 	for _, a := range fields {
 		name := a.TagName
 
 		if a.From == "" {
 			a.From = kube.MetadataFromPod
-		}
-
-		if name == "" && a.Key != "" {
-			// name for KeyRegex case is set at extraction time/runtime, skipped here
-			name = fmt.Sprintf("k8s.%v.%v.%v", a.From, fieldType, a.Key)
 		}
 
 		var keyRegex *regexp.Regexp

@@ -19,10 +19,8 @@ import (
 const (
 	podNodeField            = "spec.nodeName"
 	ignoreAnnotation string = "opentelemetry.io/k8s-processor/ignore"
-	tagNodeName             = "k8s.node.name"
 	tagStartTime            = "k8s.pod.start_time"
 	tagHostName             = "k8s.pod.hostname"
-	tagClusterUID           = "k8s.cluster.uid"
 	// MetadataFromPod is used to specify to extract metadata/labels/annotations from pod
 	MetadataFromPod = "pod"
 	// MetadataFromNamespace is used to specify to extract metadata/labels/annotations from namespace
@@ -374,7 +372,12 @@ func (r *FieldExtractionRule) extractFromMetadata(metadata, tags map[string]stri
 			}
 		}
 	} else if v, ok := metadata[r.Key]; ok {
-		tags[r.Name] = r.extractField(v)
+		// Use formatter to determine attribute name if no custom name was specified
+		name := r.Name
+		if name == "" {
+			name = fmt.Sprintf(formatter, r.Key)
+		}
+		tags[name] = r.extractField(v)
 	}
 }
 

@@ -26,7 +26,6 @@ components:
         - azuredataexplorer
         - azuremonitor
         - bmchelix
-        - carbon
         - cassandra
         - clickhouse
         - coralogix
@@ -143,8 +142,8 @@ components:
         - awsfirehose
         - awss3
         - awsxray
+        - azure_event_hub
         - azureblob
-        - azureeventhub
         - azuremonitor
         - bigip
         - carbon
@@ -184,9 +183,10 @@ components:
         - kubeletstats
         - libhoney
         - loki
+        - macosunifiedlogging
         - memcached
         - mongodb
-        - mongodbatlas
+        - mongodb_atlas
         - mysql
         - namedpipe
         - netflow
@@ -222,6 +222,7 @@ components:
         - statsd
         - stef
         - syslog
+        - systemd
         - tcpcheck
         - tcplog
         - tlscheck
