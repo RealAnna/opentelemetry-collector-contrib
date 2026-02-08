@@ -8,7 +8,7 @@ require (
 	github.com/daixiang0/gci v0.13.7
 	github.com/golangci/golangci-lint/v2 v2.7.2
 	github.com/google/addlicense v1.2.0
-	github.com/jcchavezs/porto v0.6.0
+	github.com/jcchavezs/porto v0.7.0
 	github.com/jstemmer/go-junit-report v1.0.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/cmd/codecovgen v0.145.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/cmd/schemagen v0.145.0
