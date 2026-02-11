@@ -620,7 +620,7 @@ func BenchmarkClientCompactLargeDBFile(b *testing.B) {
 
 	require.NoError(b, client.Close(ctx))
 
-	for n := 0; n < b.N; n++ {
+	for n := range b.N {
 		testDbFile := filepath.Join(tempDir, fmt.Sprintf("my_db%d", n))
 		err = os.Link(dbFile, testDbFile)
 		require.NoError(b, err)
@@ -664,7 +664,7 @@ func BenchmarkClientCompactDb(b *testing.B) {
 
 	require.NoError(b, client.Close(ctx))
 
-	for n := 0; n < b.N; n++ {
+	for n := range b.N {
 		testDbFile := filepath.Join(tempDir, fmt.Sprintf("my_db%d", n))
 		err = os.Link(dbFile, testDbFile)
 		require.NoError(b, err)
