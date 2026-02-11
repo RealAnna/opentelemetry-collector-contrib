@@ -612,7 +612,7 @@ func BenchmarkClientCompactLargeDBFile(b *testing.B) {
 		require.NoError(b, client.Set(ctx, testKey, entry))
 	}
 
-	// Leave one key in the db.
+	// Leave one key in the db
 	for n := 0; n < entryCount-1; n++ {
 		testKey = fmt.Sprintf("testKey-%d", n)
 		require.NoError(b, client.Delete(ctx, testKey))
