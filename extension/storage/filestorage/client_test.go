@@ -419,7 +419,7 @@ func BenchmarkClientGet(b *testing.B) {
 	for b.Loop() {
 		v, err := client.Get(ctx, testKey)
 		require.NoError(b, err)
-		require.Equal(t, testValue, v)
+		require.Equal(b, testValue, v)
 	}
 }
 
@@ -544,10 +544,13 @@ func BenchmarkClientSetLargeDB(b *testing.B) {
 	}
 
 	// Delete them all to build a large freelist / large file.
-	for n := 0; n < entryCount; n++ {
+	for n := range entryCount {
 		testKey = fmt.Sprintf("testKey-%d", n)
 		require.NoError(b, client.Delete(ctx, testKey))
 	}
+	b.Cleanup(func() {
+		require.NoError(b, client.Close(b.Context()))
+	})
 
 	testKey = "testKey"
 	testValue := []byte("testValue")
@@ -620,7 +623,7 @@ func BenchmarkClientCompactLargeDBFile(b *testing.B) {
 
 	require.NoError(b, client.Close(ctx))
 
-	for n := range b.N {
+	for n := 0; b.Loop(); n++ {
 		testDbFile := filepath.Join(tempDir, fmt.Sprintf("my_db%d", n))
 		err = os.Link(dbFile, testDbFile)
 		require.NoError(b, err)
