@@ -636,7 +636,6 @@ func BenchmarkClientCompactLargeDBFile(b *testing.B) {
 		b.StopTimer()
 
 		require.NoError(b, client.Close(ctx))
-
 	}
 }
 
