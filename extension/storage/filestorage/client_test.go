@@ -413,7 +413,7 @@ func BenchmarkClientGet(b *testing.B) {
 	testKey := "testKey"
 	testValue := []byte("testValue")
 
-	// Pre-populate so we measure "Get hit" performance.
+	// Pre-populate so we measure "Get hit" performance
 	require.NoError(b, client.Set(ctx, testKey, testValue))
 
 	for b.Loop() {
@@ -435,7 +435,7 @@ func BenchmarkClientGet100(b *testing.B) {
 
 	ctx := b.Context()
 
-	// Pre-populate keys so we measure "hit" batch performance.
+	// Pre-populate keys so we measure "hit" batch performance
 	for i := range 100 {
 		key := fmt.Sprintf("testKey-%d", i)
 		require.NoError(b, client.Set(ctx, key, []byte("testValue")))
@@ -505,8 +505,8 @@ func BenchmarkClientDelete(b *testing.B) {
 	testKey := "testKey"
 	testValue := []byte("testValue")
 
-	// Setup: insert unique keys so they exist before being deleted.
-	// We create b.N distinct keys so each Delete is a delete-hit.
+	// Setup: insert unique keys so they exist before being deleted
+	// We create b.N distinct keys so each Delete is a delete-hit
 	for i := range b.N {
 		key := fmt.Sprintf("%s-%d", testKey, i)
 		require.NoError(b, client.Set(ctx, key, testValue))
@@ -537,13 +537,13 @@ func BenchmarkClientSetLargeDB(b *testing.B) {
 
 	ctx := b.Context()
 
-	// Prefill with large entries.
+	// Prefill with large entries
 	for n := range entryCount {
 		testKey = fmt.Sprintf("testKey-%d", n)
 		require.NoError(b, client.Set(ctx, testKey, entry))
 	}
 
-	// Delete them all to build a large freelist / large file.
+	// Delete them all to build a large freelist / large file
 	for n := range entryCount {
 		testKey = fmt.Sprintf("testKey-%d", n)
 		require.NoError(b, client.Delete(ctx, testKey))
@@ -568,7 +568,7 @@ func BenchmarkClientInitLargeDB(b *testing.B) {
 	tempDir := b.TempDir()
 	dbFile := filepath.Join(tempDir, "my_db")
 
-	// Setup: create large DB.
+	// Setup: create large DB
 	client, err := newClient(zap.NewNop(), dbFile, time.Second, &CompactionConfig{}, false)
 	require.NoError(b, err)
 	ctx := b.Context()
@@ -601,7 +601,7 @@ func BenchmarkClientCompactLargeDBFile(b *testing.B) {
 	tempDir := b.TempDir()
 	dbFile := filepath.Join(tempDir, "my_db")
 
-	// Initial setup: create a large DB file with mostly deleted data.
+	// Initial setup: create a large DB file with mostly deleted data
 	client, err := newClient(zap.NewNop(), dbFile, time.Second, &CompactionConfig{}, false)
 	require.NoError(b, err)
 
@@ -645,7 +645,7 @@ func BenchmarkClientCompactDb(b *testing.B) {
 	tempDir := b.TempDir()
 	dbFile := filepath.Join(tempDir, "my_db")
 
-	// Setup: fill DB, then delete half of the keys.
+	// Setup: fill DB, then delete half of the keys
 	client, err := newClient(zap.NewNop(), dbFile, time.Second, &CompactionConfig{}, false)
 	require.NoError(b, err)
 
@@ -656,7 +656,7 @@ func BenchmarkClientCompactDb(b *testing.B) {
 		require.NoError(b, client.Set(ctx, testKey, entry))
 	}
 
-	// Leave half the keys in the DB.
+	// Leave half the keys in the DB
 	for n := 0; n < entryCount/2; n++ {
 		testKey = fmt.Sprintf("testKey-%d", n)
 		require.NoError(b, client.Delete(ctx, testKey))
