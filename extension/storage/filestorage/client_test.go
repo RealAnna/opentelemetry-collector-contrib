@@ -420,9 +420,7 @@ func BenchmarkClientGet(b *testing.B) {
 	for b.Loop() {
 		v, err := client.Get(ctx, testKey)
 		require.NoError(b, err)
-		if len(v) == 0 {
-			b.Fatalf("unexpected empty value")
-		}
+		require.Equal(t, testValue, v)
 	}
 }
 
