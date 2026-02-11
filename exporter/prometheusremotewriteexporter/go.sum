@@ -268,6 +268,16 @@ github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f/go.mod h1:qRW
 github.com/oklog/ulid v1.3.1 h1:EGfNDEx6MqHz8B3uNV6QAib1UR2Lm97sHi3ocA6ESJ4=
 github.com/oklog/ulid/v2 v2.1.1 h1:suPZ4ARWLOJLegGFiZZ1dFAkqzhMjL3J1TzI+5wHz8s=
 github.com/oklog/ulid/v2 v2.1.1/go.mod h1:rcEKHmBBKfef9DhnvX7y1HZBYxjXb0cP5ExxNsTT1QQ=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.145.0 h1:dl6xri2NXTrEWSkE275CEtDdnTeE9cG4e7cl7ez9Dw0=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.145.0/go.mod h1:3KiGqKgG6w/Kru8gA5E/3n4phfrQ7rQTVwAQk3DHXKs=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.145.0 h1:QZGGLuWfnfzosbRi0q71BNNeAd5C8ZWrO8TDZT9Csrs=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.145.0/go.mod h1:HYNl071CIfcvxpa6nnLNLXv2dOZhVGys2ej4EFBty7I=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.145.0 h1:8fUXpYw8FQ0RsJQCnbuOKiPA+h9nB200TUVVE8l6iBk=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.145.0/go.mod h1:D4HhkCpyZag0dErGCqdmovr0VMrwXKiZcHy6dig7VIU=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.145.0 h1:P5mNBNn5U3IdecA7VBf3F8YIW5LJKyfOdBa0ssGd8E8=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.145.0/go.mod h1:pkYd5y2l7q2ASLHIIA9fdbrIwjrrKVv1trvQrAMwhmQ=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite v0.145.0 h1:NN7l5EZZEbIoT/KmapQpMgenHCRwCKV3/ee78SEmMJI=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite v0.145.0/go.mod h1:yiq9OUlrBlbqXuPXZne9mENuat6K/Rfd9WYs3wp0SGA=
 github.com/opencontainers/go-digest v1.0.0 h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=
 github.com/opencontainers/go-digest v1.0.0/go.mod h1:0JzlMkj0TRzQZfJkVvzbP0HBR3IKzErnv2BNG4W4MAM=
 github.com/opencontainers/image-spec v1.1.1 h1:y0fUlFfIZhPF1W537XOLg0/fcx6zcHCJwooC2xJA040=
@@ -299,6 +309,7 @@ github.com/prometheus/procfs v0.16.1 h1:hZ15bTNuirocR6u0JZ6BAHHmwS1p8B4P6MRqxtzM
 github.com/prometheus/procfs v0.16.1/go.mod h1:teAbpZRB1iIAJYREa1LsoWUXykVXA1KlTmWl8x/U+Is=
 github.com/prometheus/prometheus v0.309.2-0.20260113170727-c7bc56cf6c8f h1:jdB0ldVZ0vDSopY9ya4h/XPGlRYVEDsWH5x7+vIx4R8=
 github.com/prometheus/prometheus v0.309.2-0.20260113170727-c7bc56cf6c8f/go.mod h1:wSFyaZQ1ioryO2X47s2wvQEWypS+Mwf9IQ1ABDEo2Sk=
+github.com/prometheus/prometheus/v2 v2.35.0-retract/go.mod h1:tbI/VyMq+84KBA3Px+EMZ8KUzhfBb8mEwlcDYKWkDB0=
 github.com/prometheus/sigv4 v0.3.0 h1:QIG7nTbu0JTnNidGI1Uwl5AGVIChWUACxn2B/BQ1kms=
 github.com/prometheus/sigv4 v0.3.0/go.mod h1:fKtFYDus2M43CWKMNtGvFNHGXnAJJEGZbiYCmVp/F8I=
 github.com/rogpeppe/go-internal v1.14.1 h1:UQB4HGPB6osV0SQTLymcB4TgvyWu6ZyliaW0tI/otEQ=

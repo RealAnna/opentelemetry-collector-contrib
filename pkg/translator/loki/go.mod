@@ -1,6 +1,8 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/loki
 
-go 1.24.0
+go 1.24.9
+
+toolchain go1.24.13
 
 require (
 	github.com/go-logfmt/logfmt v0.6.1
@@ -9,7 +11,8 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.145.0
 	github.com/prometheus/common v0.67.5
 	github.com/prometheus/otlptranslator v1.0.0
-	github.com/prometheus/prometheus v0.309.2-0.20260113170727-c7bc56cf6c8f
+	github.com/prometheus/prometheus v0.309.1
+	github.com/prometheus/prometheus/v2 v2.35.0-retract
 	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/collector/pdata v1.51.0
 	go.opentelemetry.io/otel v1.40.0
