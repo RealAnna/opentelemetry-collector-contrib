@@ -548,9 +548,6 @@ func BenchmarkClientSetLargeDB(b *testing.B) {
 		testKey = fmt.Sprintf("testKey-%d", n)
 		require.NoError(b, client.Delete(ctx, testKey))
 	}
-	b.Cleanup(func() {
-		require.NoError(b, client.Close(b.Context()))
-	})
 
 	testKey = "testKey"
 	testValue := []byte("testValue")
@@ -623,7 +620,7 @@ func BenchmarkClientCompactLargeDBFile(b *testing.B) {
 
 	require.NoError(b, client.Close(ctx))
 
-	for n := 0; b.Loop(); n++ {
+	for n := 0; n < b.N; n++ {
 		testDbFile := filepath.Join(tempDir, fmt.Sprintf("my_db%d", n))
 		err = os.Link(dbFile, testDbFile)
 		require.NoError(b, err)
