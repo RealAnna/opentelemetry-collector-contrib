@@ -14,6 +14,7 @@ require (
 	github.com/prometheus/client_golang/exp v0.0.0-20260101091701-2cd067eb23c9
 	github.com/prometheus/otlptranslator v1.0.0
 	github.com/prometheus/prometheus v0.309.2-0.20260113170727-c7bc56cf6c8f
+	github.com/prometheus/prometheus/v2 v2.35.0-retract
 	github.com/stretchr/testify v1.11.1
 	github.com/tidwall/wal v1.2.1
 	go.opentelemetry.io/collector/component v1.51.0
