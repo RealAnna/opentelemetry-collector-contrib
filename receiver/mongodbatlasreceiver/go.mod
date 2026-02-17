@@ -3,7 +3,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongod
 go 1.25.0
 
 require (
-	github.com/cenkalti/backoff/v4 v4.3.0
+	github.com/cenkalti/backoff/v5 v5.0.3
 	github.com/google/go-cmp v0.7.0
 	github.com/mongodb-forks/digest v1.1.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.145.0
@@ -31,6 +31,7 @@ require (
 )
 
 require (
+	github.com/cenkalti/backoff/v4 v4.3.0
 	go.opentelemetry.io/collector/component/componenttest v0.145.1-0.20260212100729-5a059d1d6718
 	go.opentelemetry.io/collector/config/configoptional v1.51.1-0.20260212100729-5a059d1d6718
 	go.opentelemetry.io/collector/consumer/consumertest v0.145.1-0.20260212100729-5a059d1d6718
@@ -42,7 +43,6 @@ require (
 )
 
 require (
-	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/elastic/lunes v0.2.0 // indirect
