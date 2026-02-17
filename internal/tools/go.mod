@@ -10,7 +10,7 @@ require (
 	github.com/google/addlicense v1.2.0
 	github.com/jcchavezs/porto v0.6.0
 	github.com/jstemmer/go-junit-report v1.0.0
-	github.com/rhysd/actionlint v1.7.10
+	github.com/rhysd/actionlint v1.7.11
 	go.opentelemetry.io/build-tools/checkapi v0.29.0
 	go.opentelemetry.io/build-tools/checkfile v0.29.0
 	go.opentelemetry.io/build-tools/chloggen v0.29.0
