@@ -14,7 +14,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.145.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.145.0
 	github.com/stretchr/testify v1.11.1
-	github.com/valyala/fastjson v1.6.7
+	github.com/valyala/fastjson v1.6.10
 	go.opentelemetry.io/collector/component v1.51.1-0.20260212100729-5a059d1d6718
 	go.opentelemetry.io/collector/component/componenttest v0.145.1-0.20260212100729-5a059d1d6718
 	go.opentelemetry.io/collector/config/configtls v1.51.1-0.20260212100729-5a059d1d6718
