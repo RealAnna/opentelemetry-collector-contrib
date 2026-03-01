@@ -28,9 +28,9 @@ require (
 	go.opentelemetry.io/collector/receiver/receivertest v0.145.1-0.20260212100729-5a059d1d6718
 	go.uber.org/goleak v1.3.0
 	go.uber.org/zap v1.27.1
-	k8s.io/api v0.35.1
-	k8s.io/apimachinery v0.35.1
-	k8s.io/client-go v0.35.1
+	k8s.io/api v0.35.2
+	k8s.io/apimachinery v0.35.2
+	k8s.io/client-go v0.35.2
 	k8s.io/klog/v2 v2.130.1
 )
 
