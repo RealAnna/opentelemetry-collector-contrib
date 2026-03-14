@@ -28,8 +28,8 @@ github.com/aws/aws-sdk-go-v2/service/ssooidc v1.35.13 h1:gd84Omyu9JLriJVCbGApcLz
 github.com/aws/aws-sdk-go-v2/service/ssooidc v1.35.13/go.mod h1:sTGThjphYE4Ohw8vJiRStAcu3rbjtXRsdNB0TvZ5wwo=
 github.com/aws/aws-sdk-go-v2/service/sts v1.41.6 h1:5fFjR/ToSOzB2OQ/XqWpZBmNvmP/pJ1jOWYlFDJTjRQ=
 github.com/aws/aws-sdk-go-v2/service/sts v1.41.6/go.mod h1:qgFDZQSD/Kys7nJnVqYlWKnh0SSdMjAi0uSwON4wgYQ=
-github.com/aws/smithy-go v1.24.0 h1:LpilSUItNPFr1eY85RYgTIg5eIEPtvFbskaFcmmIUnk=
-github.com/aws/smithy-go v1.24.0/go.mod h1:LEj2LM3rBRQJxPZTB4KuzZkaZYnZPnvgIhb4pu07mx0=
+github.com/aws/smithy-go v1.24.2 h1:FzA3bu/nt/vDvmnkg+R8Xl46gmzEDam6mZ1hzmwXFng=
+github.com/aws/smithy-go v1.24.2/go.mod h1:YE2RhdIuDbA5E5bTdciG9KrW3+TiEONeUWCqxX9i1Fc=
 github.com/cenkalti/backoff/v5 v5.0.3 h1:ZN+IMa753KfX5hd8vVaMixjnqRZ3y8CuJKRKj1xcsSM=
 github.com/cenkalti/backoff/v5 v5.0.3/go.mod h1:rkhZdG3JZukswDf7f0cwqPNk4K0sa+F97BxZthm/crw=
 github.com/cespare/xxhash/v2 v2.3.0 h1:UL815xU9SqsFlibzuggzjXhog7bL6oX9BbNZnL2UFvs=
@@ -77,6 +77,16 @@ github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJ
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
 github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee h1:W5t00kpgFdJifH4BDsTlE89Zl93FEloxaWZfGcifgq8=
 github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil v0.145.0 h1:+Dk1hdifV1bwwgRuwb2+r+KuN6lYp8tA8eI+yxfDsOU=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil v0.145.0/go.mod h1:/GkI/KBzz4fwZoA7h46ypJ+RBjtjFrZ9K0e8gSXYTA4=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs v0.145.0 h1:dJsLhj/dQI8LftB8DciVDYiUHxNOpx+FqrdN/y8llSw=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs v0.145.0/go.mod h1:ljGvRufmJb7s2GLOXKr7CwXqdBWTdD6mrLsSl2v4vLY=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/metrics v0.145.0 h1:hpX7d9qffNgamfTpg+0Ed6aCEKOJf7IT7Ps0cxijL5k=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/metrics v0.145.0/go.mod h1:56rV8bsrYFm1NitT2jiNtvtyedpcxfhWfSg709xLiQk=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.145.0 h1:QZGGLuWfnfzosbRi0q71BNNeAd5C8ZWrO8TDZT9Csrs=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.145.0/go.mod h1:HYNl071CIfcvxpa6nnLNLXv2dOZhVGys2ej4EFBty7I=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.145.0 h1:8fUXpYw8FQ0RsJQCnbuOKiPA+h9nB200TUVVE8l6iBk=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.145.0/go.mod h1:D4HhkCpyZag0dErGCqdmovr0VMrwXKiZcHy6dig7VIU=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rogpeppe/go-internal v1.14.1 h1:UQB4HGPB6osV0SQTLymcB4TgvyWu6ZyliaW0tI/otEQ=
