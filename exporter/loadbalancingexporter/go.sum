@@ -79,8 +79,8 @@ github.com/go-viper/mapstructure/v2 v2.5.0 h1:vM5IJoUAy3d7zRSVtIwQgBj7BiWtMPfmPE
 github.com/go-viper/mapstructure/v2 v2.5.0/go.mod h1:oJDH3BJKyqBA2TXFhDsKDGDTlndYOZ6rGS0BRZIxGhM=
 github.com/gobwas/glob v0.2.3 h1:A4xDbljILXROh+kObIiy5kIaPYD8e96x1tgBhUI5J+Y=
 github.com/gobwas/glob v0.2.3/go.mod h1:d3Ez4x06l9bZtSvzIay5+Yzi0fmZzPgnTbPcKjJAkT8=
-github.com/goccy/go-json v0.10.5 h1:Fq85nIqj+gXn/S5ahsiTlK3TmC85qgirsdTP/+DeaC4=
-github.com/goccy/go-json v0.10.5/go.mod h1:oq7eo15ShAhp70Anwd5lgX2pLfOS3QCiwU/PULtXL6M=
+github.com/goccy/go-json v0.10.6 h1:p8HrPJzOakx/mn/bQtjgNjdTcN+/S6FcG2CTtQOrHVU=
+github.com/goccy/go-json v0.10.6/go.mod h1:oq7eo15ShAhp70Anwd5lgX2pLfOS3QCiwU/PULtXL6M=
 github.com/golang/protobuf v1.5.4 h1:i7eJL8qZTpSEXOPTxNKhASYpMn+8e5Q6AdndVa1dWek=
 github.com/golang/protobuf v1.5.4/go.mod h1:lnTiLA8Wa4RWRcIUkrtSVa5nRhsEGBg48fD6rSs7xps=
 github.com/golang/snappy v1.0.0 h1:Oy607GVXHs7RtbggtPBnr2RmDArIsAefDwvrdWvRhGs=
@@ -149,6 +149,16 @@ github.com/onsi/ginkgo/v2 v2.27.2 h1:LzwLj0b89qtIy6SSASkzlNvX6WktqurSHwkk2ipF/Ns
 github.com/onsi/ginkgo/v2 v2.27.2/go.mod h1:ArE1D/XhNXBXCBkKOLkbsb2c81dQHCRcF5zwn/ykDRo=
 github.com/onsi/gomega v1.38.2 h1:eZCjf2xjZAqe+LeWvKb5weQ+NcPwX84kqJ0cZNxok2A=
 github.com/onsi/gomega v1.38.2/go.mod h1:W2MJcYxRGV63b418Ai34Ud0hEdTVXq9NW9+Sx6uXf3k=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics v0.145.0 h1:0dYiJ7krIwaHFX6YLNDo/yawTZIu8X16tT/nwW1UTG8=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics v0.145.0/go.mod h1:mhoa9lipcEH0heeKf6+xHzGUrCuAgImQv4/Qpmu0+Fk=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchpersignal v0.145.0 h1:P0h2SQC3Vi63XkB9zFhczfgI2ue6RVIqqEWwG6fsxbo=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchpersignal v0.145.0/go.mod h1:3KtYwUA5QBPUQXh4fHzTS/77mHGYj0VMEuYIKnXJ0oY=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.145.0 h1:lbxy2bYh3v0YIyqd/JVttEwYlC7yU5o3JU2N/m5Qnq8=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.145.0/go.mod h1:kGlLjX8CJSE+9SfLARgaXTFBuAvNadjLvPsHO7fcVeE=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.145.0 h1:0ithmsGyVtjzODmAPp9pkxA4IlnYpyeXmDWrryTkHNo=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.145.0/go.mod h1:r+K/aCWpUCDDM5Gisznf9ZQjpZcyFr84CuATA9486JQ=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.145.0 h1:sB4yuYx45zig1ceQ+kmrEYy0xMZ+mGagwYIFtJkkU1w=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.145.0/go.mod h1:uLhceuH7ZtiVxk+B0MHI0vhJG2Y4aOzT/hrV6c5KjVU=
 github.com/pierrec/lz4/v4 v4.1.25 h1:kocOqRffaIbU5djlIBr7Wh+cx82C0vtFb0fOurZHqD0=
 github.com/pierrec/lz4/v4 v4.1.25/go.mod h1:EoQMVJgeeEOMsCqCzqFm2O0cJvljX2nGZjcRIPL34O4=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
