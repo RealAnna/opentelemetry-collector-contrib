@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/DeRuina/timberjack v1.3.9
 	github.com/hashicorp/golang-lru/v2 v2.0.7
-	github.com/klauspost/compress v1.18.4
+	github.com/klauspost/compress v1.18.6
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/otlpencodingextension v0.145.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.145.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent v0.145.0
