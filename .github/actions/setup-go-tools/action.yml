@@ -35,7 +35,7 @@ runs:
         "${{ inputs.repo-path }}/.github/workflows/scripts/free-disk-space.sh"
 
     - name: Setup Go
-      uses: actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5 # v6
+      uses: actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c # v6
       id: go-setup
       with:
         go-version: ${{ inputs.go-version }}
@@ -44,7 +44,7 @@ runs:
 
     - name: Cache .tools
       if: inputs.install-tools == 'true'
-      uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5
+      uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5
       id: tools-cache
       with:
         path: ${{ inputs.repo-path }}/.tools
