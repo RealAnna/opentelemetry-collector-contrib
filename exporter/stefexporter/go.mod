@@ -6,10 +6,10 @@ require (
 	github.com/cenkalti/backoff/v5 v5.0.3
 	github.com/jonboulle/clockwork v0.5.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.145.0
-	github.com/splunk/stef/go/grpc v0.1.1
-	github.com/splunk/stef/go/otel v0.1.1
-	github.com/splunk/stef/go/pdata v0.1.1
-	github.com/splunk/stef/go/pkg v0.1.1
+	github.com/splunk/stef/go/grpc v0.1.2
+	github.com/splunk/stef/go/otel v0.1.2
+	github.com/splunk/stef/go/pdata v0.1.2
+	github.com/splunk/stef/go/pkg v0.1.2
 	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/collector/component v1.51.1-0.20260212100729-5a059d1d6718
 	go.opentelemetry.io/collector/component/componenttest v0.145.1-0.20260212100729-5a059d1d6718
@@ -23,11 +23,11 @@ require (
 	go.opentelemetry.io/collector/exporter v1.51.1-0.20260212100729-5a059d1d6718
 	go.opentelemetry.io/collector/exporter/exporterhelper v0.145.1-0.20260212100729-5a059d1d6718
 	go.opentelemetry.io/collector/exporter/exportertest v0.145.1-0.20260212100729-5a059d1d6718
-	go.opentelemetry.io/collector/pdata v1.51.1-0.20260212100729-5a059d1d6718
+	go.opentelemetry.io/collector/pdata v1.57.0
 	go.opentelemetry.io/collector/pdata/testdata v0.145.1-0.20260212100729-5a059d1d6718
 	go.uber.org/goleak v1.3.0
 	go.uber.org/zap v1.27.1
-	google.golang.org/grpc v1.78.0
+	google.golang.org/grpc v1.80.0
 )
 
 require (
@@ -42,9 +42,9 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/go-tpm v0.9.8 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/hashicorp/go-version v1.8.0 // indirect
+	github.com/hashicorp/go-version v1.9.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.18.3 // indirect
+	github.com/klauspost/compress v1.18.6 // indirect
 	github.com/knadh/koanf/maps v0.1.2 // indirect
 	github.com/knadh/koanf/providers/confmap v1.0.0 // indirect
 	github.com/knadh/koanf/v2 v2.3.2 // indirect
@@ -69,7 +69,7 @@ require (
 	go.opentelemetry.io/collector/extension/extensionauth v1.51.1-0.20260212100729-5a059d1d6718 // indirect
 	go.opentelemetry.io/collector/extension/extensionmiddleware v0.145.1-0.20260212100729-5a059d1d6718 // indirect
 	go.opentelemetry.io/collector/extension/xextension v0.145.1-0.20260212100729-5a059d1d6718 // indirect
-	go.opentelemetry.io/collector/featuregate v1.51.1-0.20260212100729-5a059d1d6718 // indirect
+	go.opentelemetry.io/collector/featuregate v1.57.0 // indirect
 	go.opentelemetry.io/collector/internal/componentalias v0.145.1-0.20260212100729-5a059d1d6718 // indirect
 	go.opentelemetry.io/collector/pdata/pprofile v0.145.1-0.20260212100729-5a059d1d6718 // indirect
 	go.opentelemetry.io/collector/pdata/xpdata v0.145.1-0.20260212100729-5a059d1d6718 // indirect
@@ -86,14 +86,14 @@ require (
 	go.opentelemetry.io/otel/trace v1.40.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/crypto v0.45.0 // indirect
-	golang.org/x/net v0.47.0 // indirect
-	golang.org/x/sys v0.40.0 // indirect
-	golang.org/x/text v0.31.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20251222181119-0a764e51fe1b // indirect
+	golang.org/x/crypto v0.48.0 // indirect
+	golang.org/x/net v0.51.0 // indirect
+	golang.org/x/sys v0.41.0 // indirect
+	golang.org/x/text v0.34.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260120221211-b8f7ae30c516 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	modernc.org/b/v2 v2.1.10 // indirect
+	modernc.org/b/v2 v2.1.11 // indirect
 )
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
