@@ -28,7 +28,7 @@ require (
 	go.opentelemetry.io/collector/component/componenttest v0.145.1-0.20260212100729-5a059d1d6718
 	go.opentelemetry.io/collector/consumer/consumertest v0.145.1-0.20260212100729-5a059d1d6718
 	go.opentelemetry.io/collector/processor/processortest v0.145.1-0.20260212100729-5a059d1d6718
-	golang.org/x/time v0.14.0
+	golang.org/x/time v0.15.0
 )
 
 require (
