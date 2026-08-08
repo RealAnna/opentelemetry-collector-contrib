@@ -35,8 +35,8 @@ github.com/docker/go-units v0.5.0 h1:69rxXcBk27SvSaaxTtLh/8llcHD8vYHT7WSdRZ/jvr4
 github.com/docker/go-units v0.5.0/go.mod h1:fgPhTUdO+D/Jk86RDLlptpiXQzgHJF7gydDDbaIK4Dk=
 github.com/ebitengine/purego v0.8.4 h1:CF7LEKg5FFOsASUj0+QwaXf8Ht6TlFxg09+S9wz0omw=
 github.com/ebitengine/purego v0.8.4/go.mod h1:iIjxzd6CiRiOG0UyXP+V1+jWqUXVjPKLAI0mRfJZTmQ=
-github.com/elastic/lunes v0.2.0 h1:WI3bsdOTuaYXVe2DS1KbqA7u7FOHN4o8qJw80ZyZoQs=
-github.com/elastic/lunes v0.2.0/go.mod h1:u3W/BdONWTrh0JjNZ21C907dDc+cUZttZrGa625nf2k=
+github.com/elastic/lunes v0.2.2 h1:dZFEaebNg9l+mzvOQN6Nd/c9y6y8rUe3tBWsTgvM08U=
+github.com/elastic/lunes v0.2.2/go.mod h1:u3W/BdONWTrh0JjNZ21C907dDc+cUZttZrGa625nf2k=
 github.com/felixge/httpsnoop v1.0.4 h1:NFTV2Zj1bL4mc9sqWACXbQFVBBg2W3GPvqp8/ESS2Wg=
 github.com/felixge/httpsnoop v1.0.4/go.mod h1:m8KPJKqk1gH5J9DgRY2ASl2lWCfGKXixSwevea8zH2U=
 github.com/go-logr/logr v1.2.2/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
@@ -96,6 +96,12 @@ github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee h1:W5t00kpgFd
 github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
 github.com/morikuni/aec v1.0.0 h1:nP9CBfwrvYnBRgY6qfDQkygYDmYwOilePFkwzv4dU8A=
 github.com/morikuni/aec v1.0.0/go.mod h1:BbKIizmSmc5MMPqRYbxO4ZU0S0+P200+tUnFx7PXmsc=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.145.0 h1:lbxy2bYh3v0YIyqd/JVttEwYlC7yU5o3JU2N/m5Qnq8=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.145.0/go.mod h1:kGlLjX8CJSE+9SfLARgaXTFBuAvNadjLvPsHO7fcVeE=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.145.0 h1:0ithmsGyVtjzODmAPp9pkxA4IlnYpyeXmDWrryTkHNo=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.145.0/go.mod h1:r+K/aCWpUCDDM5Gisznf9ZQjpZcyFr84CuATA9486JQ=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.145.0 h1:sB4yuYx45zig1ceQ+kmrEYy0xMZ+mGagwYIFtJkkU1w=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.145.0/go.mod h1:uLhceuH7ZtiVxk+B0MHI0vhJG2Y4aOzT/hrV6c5KjVU=
 github.com/opencontainers/go-digest v1.0.0 h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=
 github.com/opencontainers/go-digest v1.0.0/go.mod h1:0JzlMkj0TRzQZfJkVvzbP0HBR3IKzErnv2BNG4W4MAM=
 github.com/opencontainers/image-spec v1.1.1 h1:y0fUlFfIZhPF1W537XOLg0/fcx6zcHCJwooC2xJA040=
@@ -153,8 +159,8 @@ go.opentelemetry.io/collector/pdata v1.51.1-0.20260212100729-5a059d1d6718 h1:/3K
 go.opentelemetry.io/collector/pdata v1.51.1-0.20260212100729-5a059d1d6718/go.mod h1:i6a6CQFFQy5/XI4bkqzhcep9HJdd+sMLrKc9cXeagtU=
 go.opentelemetry.io/collector/pdata/pprofile v0.145.1-0.20260212100729-5a059d1d6718 h1:NR/WibCBwMkY4LYbYkxu4MM5TmaGi+/WtXwWCfSEH/o=
 go.opentelemetry.io/collector/pdata/pprofile v0.145.1-0.20260212100729-5a059d1d6718/go.mod h1:xUHRkTPLzY61ITArAXQ3aOzEQgoZfIXVPv0NgZNPW/Y=
-go.opentelemetry.io/collector/pdata/testdata v0.145.1-0.20260212100729-5a059d1d6718 h1:IFJ8LAecZg1HPug9CpoY6tlZ6yl+VOlGOk26MvTXQCI=
-go.opentelemetry.io/collector/pdata/testdata v0.145.1-0.20260212100729-5a059d1d6718/go.mod h1:wthspd4ByrEJGiTK0iHYq+b22L9fO6FQwKhTEyqFc6I=
+go.opentelemetry.io/collector/pdata/testdata v0.145.0 h1:iFsxsCMtE3lnAc/5kZbhZHpRv1OMmM+O5ry46xdQHbg=
+go.opentelemetry.io/collector/pdata/testdata v0.145.0/go.mod h1:0y2ERArdzqmYdJHdKLKue+AUubSEGlwK49F+23+Mbic=
 go.opentelemetry.io/collector/pipeline v1.51.1-0.20260212100729-5a059d1d6718 h1:LWu2lKXhT4TVxuBqxgzigvPf1L9g+HKHE6yJmE4ZXlo=
 go.opentelemetry.io/collector/pipeline v1.51.1-0.20260212100729-5a059d1d6718/go.mod h1:RD90NG3Jbk965Xaqym3JyHkuol4uZJjQVUkD9ddXJIs=
 go.opentelemetry.io/collector/receiver v1.51.1-0.20260212100729-5a059d1d6718 h1:PlnIHxGeLg3Z+B7SGPt6jcY0b3O4PyMlWA8e15bTTbk=
