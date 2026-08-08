@@ -27,7 +27,7 @@ require (
 	github.com/DataDog/datadog-agent/pkg/util/compression v0.77.0-devel.0.20260213154712-e02b9359151a
 	github.com/DataDog/datadog-agent/pkg/util/hostname/validate v0.77.0-devel.0.20260213154712-e02b9359151a
 	github.com/DataDog/datadog-agent/pkg/util/option v0.77.0-devel.0.20260213154712-e02b9359151a
-	github.com/DataDog/datadog-go/v5 v5.8.3
+	github.com/DataDog/datadog-go/v5 v5.9.0
 	github.com/google/go-cmp v0.7.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog v0.145.0
 	github.com/stretchr/testify v1.11.1
