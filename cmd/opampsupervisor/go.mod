@@ -4,11 +4,11 @@ go 1.25.0
 
 require (
 	github.com/google/uuid v1.6.0
-	github.com/knadh/koanf/maps v0.1.2
-	github.com/knadh/koanf/parsers/yaml v1.1.0
+	github.com/knadh/koanf/maps v0.1.3
+	github.com/knadh/koanf/parsers/yaml v1.1.1
 	github.com/knadh/koanf/providers/file v1.2.1
-	github.com/knadh/koanf/providers/rawbytes v1.0.0
-	github.com/knadh/koanf/v2 v2.3.2
+	github.com/knadh/koanf/providers/rawbytes v1.0.1
+	github.com/knadh/koanf/v2 v2.3.7
 	github.com/open-telemetry/opamp-go v0.22.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/testbed v0.145.0
 	github.com/stretchr/testify v1.11.1
