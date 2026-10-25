@@ -1,5 +1,5 @@
 # https://github.com/maxgio92/docker-snmpsim
-FROM python:3.14-slim
+FROM python:3.15-slim
 
 RUN pip install snmpsim
 
