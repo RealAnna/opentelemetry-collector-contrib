@@ -1,9 +1,9 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/awslogsencodingextension
 
-go 1.25.0
+go 1.26
 
 require (
-	github.com/aws/aws-lambda-go v1.52.0
+	github.com/aws/aws-lambda-go v1.55.1
 	github.com/goccy/go-json v0.10.5
 	github.com/klauspost/compress v1.18.4
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding v0.145.0
